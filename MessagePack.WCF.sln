@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagePack.WCF", "src\MessagePack.WCF\MessagePack.WCF.csproj", "{70262B3C-83D8-47BD-9B8E-38EC582FCB9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6325A057-AAA2-4255-8AF6-E3E434FB12B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53F44371-CD8A-4723-ADC5-E64808BF46C4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70262B3C-83D8-47BD-9B8E-38EC582FCB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70262B3C-83D8-47BD-9B8E-38EC582FCB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70262B3C-83D8-47BD-9B8E-38EC582FCB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70262B3C-83D8-47BD-9B8E-38EC582FCB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70262B3C-83D8-47BD-9B8E-38EC582FCB9E} = {6325A057-AAA2-4255-8AF6-E3E434FB12B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2352502-8525-4D20-A73D-3C607F52F5E1}
+	EndGlobalSection
+EndGlobal
