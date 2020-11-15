@@ -98,7 +98,7 @@ namespace MessagePack.Wcf
             }
             else
             {
-                var buffer = MessagePackSerializer.NonGeneric.Serialize(TargetType, graph);
+                var buffer = MessagePackSerializer.Serialize(TargetType, graph);
                 writer.WriteBase64(buffer, 0, buffer.Length);
             }
         }
@@ -154,7 +154,7 @@ namespace MessagePack.Wcf
             var content = reader.ReadContentAsBase64();
             reader.ReadEndElement();
 
-            return MessagePackSerializer.NonGeneric.Deserialize(TargetType, content);
+            return MessagePackSerializer.Deserialize(TargetType, content);
         }
     }
 }

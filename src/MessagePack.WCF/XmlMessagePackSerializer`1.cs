@@ -29,10 +29,9 @@ namespace MessagePack.Wcf
                 writer.WriteAttributeString("nil", "true");
             }
             else
-            {
-
-                var buffer = MessagePackSerializer.SerializeUnsafe<T>((T)graph);
-                writer.WriteBase64(buffer.Array, buffer.Offset, buffer.Count);
+            {   
+                var buffer = MessagePackSerializer.Serialize<T>((T)graph);
+                writer.WriteBase64(buffer, 0, buffer.Length);
             }
         }
 
